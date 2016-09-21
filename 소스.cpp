@@ -61,18 +61,18 @@ int main(void)
 		}
 
 
-		//square
-		for(int i=400;i<500;i++){//Ã¤¿öÁø ³×¸ð
+		//emty square
+		for(int i=400;i<500;i++){//ì±„ì›Œì§„ ë„¤ëª¨
 			for(int j=250;j<350;j++){
 				drawPixel(j, i, 1.0f,0.0f, 0.0f);}}
-		for(int i=410;i<490;i++){//ºó°ø°£
+		for(int i=410;i<490;i++){//ë¹ˆê³µê°„
 			for(int j=260;j<340;j++){
 				drawPixel(j, i, 1.0f,1.0f, 1.0f);}}
 		
 		
 		
 		
-		//square
+		//full square
 		for(int i=400;i<500;i++){
 			for(int j=450;j<550;j++){
 				drawPixel(j, i, 1.0f,0.0f, 0.0f);}}
@@ -84,7 +84,7 @@ int main(void)
 				drawPixel(j, 100, 1.0f,0.0f, 0.0f);} 
 		 drawLine(100, 200, 170, 100, 1.0f,0.0f, 0.0f);
 
-		//circle Áß½ÉÀÌ 150,350 ¹ÝÁö¸§ÀÌ 50Â¥¸®
+		//empty circle ì¤‘ì‹¬ì´ 150,350 ë°˜ì§€ë¦„ì´ 50ì§œë¦¬
 		for(int i=100;i<200;i++){
 			for(int j=250;j<350;j++){
 
@@ -93,7 +93,7 @@ int main(void)
 				if(circle<0.0){drawPixel(j, i, 1.0f,0.0f, 0.0f);}
 				else {}
 			}}
-	//emptycircle
+		//empty spcace make
 		for(int i=100;i<200;i++){
 			for(int j=250;j<350;j++){
 
@@ -104,7 +104,7 @@ int main(void)
 			}}
 
 
-	//circle Áß½ÉÀÌ 150,400 ¹ÝÁö¸§ÀÌ 50Â¥¸®
+		//full circle ì¤‘ì‹¬ì´ 150,400 ë°˜ì§€ë¦„ì´ 50ì§œë¦¬
 		for(int i=100;i<200;i++){
 			for(int j=450;j<550;j++){
 
